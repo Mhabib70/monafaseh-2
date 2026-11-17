@@ -1,0 +1,37 @@
+# dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# next.js
+.next/
+out/
+build/
+dist/
+
+# production
+/public/uploads/*
+
+# environment — هرگز کامیت نشود
+.env
+.env.*
+!.env.example
+
+# database
+db/
+*.db
+*.db-journal
+
+# logs
+*.log
+
+# misc
+.DS_Store
+*.pem
+.idea/
+.vscode/
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# n8n / local tools
+.zcode/
